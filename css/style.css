@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  background-image: url("../images/heartban.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Arial Black", Gadget, sans-serif; }
+  body h1 {
+    color: white;
+    font-size: 40px; }
+  body header {
+    height: 150px;
+    background-image: url("../images/headban.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    body header nav {
+      padding-top: 3em; }
+      body header nav ul {
+        float: right; }
+        body header nav ul li {
+          display: inline-block;
+          color: white;
+          font-size: 25px;
+          margin-left: 1em; }
+        body header nav ul li:hover > ul {
+          display: inline; }
+        body header nav ul li:hover {
+          color: #FF0099; }
+        body header nav ul ul {
+          display: none;
+          position: absolute; }
+        body header nav ul ul li {
+          float: none; }
+        body header nav ul ul ul li {
+          display: inline; }
+  body #container {
+    margin: 0 auto;
+    max-width: 1100px;
+    background-color: white;
+    opacity: 0.6;
+    margin-top: 4em;
+    padding: 2em; }
+
+/*# sourceMappingURL=style.css.map */
